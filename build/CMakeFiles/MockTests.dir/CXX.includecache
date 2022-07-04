@@ -6,3 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/raining/Learning/GoogleMock/FooInterface.h
+string
+-
+
+/home/raining/Learning/GoogleMock/FooMain.cc
+cstdlib
+-
+gmock/gmock.h
+-
+iostream
+-
+string
+-
+MockFoo.h
+/home/raining/Learning/GoogleMock/MockFoo.h
+
+/home/raining/Learning/GoogleMock/MockFoo.h
+gmock/gmock.h
+-
+string
+-
+vector
+-
+FooInterface.h
+/home/raining/Learning/GoogleMock/FooInterface.h
+
