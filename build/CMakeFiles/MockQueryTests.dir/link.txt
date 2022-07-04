@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -std=c++11 -Wall  -rdynamic CMakeFiles/MockQueryTests.dir/tester.cc.o CMakeFiles/MockQueryTests.dir/Rank.cc.o  -o MockQueryTests  -lpthread -lgmock -lgtest 

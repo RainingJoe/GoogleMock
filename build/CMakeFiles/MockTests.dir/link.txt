@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -std=c++11 -Wall  -rdynamic CMakeFiles/MockTests.dir/FooMain.cc.o  -o MockTests  -lpthread -lgmock -lgtest 

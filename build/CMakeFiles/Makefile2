@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/raining/Learning/GoogleMock/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/MockTests.dir/all
+all: CMakeFiles/MockQueryTests.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/MockTests.dir/clean
+clean: CMakeFiles/MockQueryTests.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/MockTests.dir
+# Target rules for target CMakeFiles/MockQueryTests.dir
 
 # All Build rule for target.
-CMakeFiles/MockTests.dir/all:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/depend
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raining/Learning/GoogleMock/build/CMakeFiles --progress-num=1,2 "Built target MockTests"
-.PHONY : CMakeFiles/MockTests.dir/all
+CMakeFiles/MockQueryTests.dir/all:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/depend
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/raining/Learning/GoogleMock/build/CMakeFiles --progress-num=1,2,3 "Built target MockQueryTests"
+.PHONY : CMakeFiles/MockQueryTests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/MockTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raining/Learning/GoogleMock/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MockTests.dir/all
+CMakeFiles/MockQueryTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raining/Learning/GoogleMock/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MockQueryTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/raining/Learning/GoogleMock/build/CMakeFiles 0
-.PHONY : CMakeFiles/MockTests.dir/rule
+.PHONY : CMakeFiles/MockQueryTests.dir/rule
 
 # Convenience name for target.
-MockTests: CMakeFiles/MockTests.dir/rule
+MockQueryTests: CMakeFiles/MockQueryTests.dir/rule
 
-.PHONY : MockTests
+.PHONY : MockQueryTests
 
 # clean rule for target.
-CMakeFiles/MockTests.dir/clean:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/clean
-.PHONY : CMakeFiles/MockTests.dir/clean
+CMakeFiles/MockQueryTests.dir/clean:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/clean
+.PHONY : CMakeFiles/MockQueryTests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

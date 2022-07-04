@@ -53,5 +53,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/MockTests.dir/DependInfo.cmake"
+  "CMakeFiles/MockQueryTests.dir/DependInfo.cmake"
   )

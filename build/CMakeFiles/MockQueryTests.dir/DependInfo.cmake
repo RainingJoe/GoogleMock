@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/raining/Learning/GoogleMock/FooMain.cc" "/home/raining/Learning/GoogleMock/build/CMakeFiles/MockTests.dir/FooMain.cc.o"
+  "/home/raining/Learning/GoogleMock/Rank.cc" "/home/raining/Learning/GoogleMock/build/CMakeFiles/MockQueryTests.dir/Rank.cc.o"
+  "/home/raining/Learning/GoogleMock/tester.cc" "/home/raining/Learning/GoogleMock/build/CMakeFiles/MockQueryTests.dir/tester.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

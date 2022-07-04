@@ -1,3 +1,3 @@
 /home/raining/Learning/GoogleMock/build/CMakeFiles/rebuild_cache.dir
 /home/raining/Learning/GoogleMock/build/CMakeFiles/edit_cache.dir
-/home/raining/Learning/GoogleMock/build/CMakeFiles/MockTests.dir
+/home/raining/Learning/GoogleMock/build/CMakeFiles/MockQueryTests.dir

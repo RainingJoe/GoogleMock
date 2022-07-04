@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MockTests
+# Target rules for targets named MockQueryTests
 
 # Build rule for target.
-MockTests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MockTests
-.PHONY : MockTests
+MockQueryTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MockQueryTests
+.PHONY : MockQueryTests
 
 # fast build rule for target.
-MockTests/fast:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/build
-.PHONY : MockTests/fast
+MockQueryTests/fast:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/build
+.PHONY : MockQueryTests/fast
 
-FooMain.o: FooMain.cc.o
+Rank.o: Rank.cc.o
 
-.PHONY : FooMain.o
+.PHONY : Rank.o
 
 # target to build an object file
-FooMain.cc.o:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/FooMain.cc.o
-.PHONY : FooMain.cc.o
+Rank.cc.o:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/Rank.cc.o
+.PHONY : Rank.cc.o
 
-FooMain.i: FooMain.cc.i
+Rank.i: Rank.cc.i
 
-.PHONY : FooMain.i
+.PHONY : Rank.i
 
 # target to preprocess a source file
-FooMain.cc.i:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/FooMain.cc.i
-.PHONY : FooMain.cc.i
+Rank.cc.i:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/Rank.cc.i
+.PHONY : Rank.cc.i
 
-FooMain.s: FooMain.cc.s
+Rank.s: Rank.cc.s
 
-.PHONY : FooMain.s
+.PHONY : Rank.s
 
 # target to generate assembly for a file
-FooMain.cc.s:
-	$(MAKE) -f CMakeFiles/MockTests.dir/build.make CMakeFiles/MockTests.dir/FooMain.cc.s
-.PHONY : FooMain.cc.s
+Rank.cc.s:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/Rank.cc.s
+.PHONY : Rank.cc.s
+
+tester.o: tester.cc.o
+
+.PHONY : tester.o
+
+# target to build an object file
+tester.cc.o:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/tester.cc.o
+.PHONY : tester.cc.o
+
+tester.i: tester.cc.i
+
+.PHONY : tester.i
+
+# target to preprocess a source file
+tester.cc.i:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/tester.cc.i
+.PHONY : tester.cc.i
+
+tester.s: tester.cc.s
+
+.PHONY : tester.s
+
+# target to generate assembly for a file
+tester.cc.s:
+	$(MAKE) -f CMakeFiles/MockQueryTests.dir/build.make CMakeFiles/MockQueryTests.dir/tester.cc.s
+.PHONY : tester.cc.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... MockTests"
-	@echo "... FooMain.o"
-	@echo "... FooMain.i"
-	@echo "... FooMain.s"
+	@echo "... MockQueryTests"
+	@echo "... Rank.o"
+	@echo "... Rank.i"
+	@echo "... Rank.s"
+	@echo "... tester.o"
+	@echo "... tester.i"
+	@echo "... tester.s"
 .PHONY : help
 
 
